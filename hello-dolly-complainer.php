@@ -19,6 +19,21 @@ Why?
 I don't think so!
 Not that pretty!
 Again an again
+Seriously?
+You've got to be kidding!
+Oh, come on!
+Not this time!
+Meh.
+Yawn...
+Is that all?
+I've heard enough.
+Not buying it.
+That doesn't make sense!
+How is that possible?
+This is getting old.
+Not impressed.
+Do we have to?
+Can we not?
 Blah blah blah";
 
 	// Here we split it into lines.
@@ -56,7 +71,7 @@ function dolly_complainer_css() {
 		margin: 0;
 		font-size: 9px;
                 color: red;
-		line-height: 1.6666;
+		line-height: 20px;
 	}
 	.rtl #dollyc {
 		float: left;
