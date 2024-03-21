@@ -50,22 +50,23 @@ add_action( 'admin_notices', 'hello_dolly_complainer' );
 function dolly_complainer_css() {
 	echo "
 	<style type='text/css'>
-	#dolly {
+	#dollyc {
 		float: right;
 		padding: 5px 10px;
 		margin: 0;
-		font-size: 12px;
+		font-size: 9px;
+                color: red;
 		line-height: 1.6666;
 	}
-	.rtl #dolly {
+	.rtl #dollyc {
 		float: left;
 	}
-	.block-editor-page #dolly {
+	.block-editor-page #dollyc {
 		display: none;
 	}
 	@media screen and (max-width: 782px) {
-		#dolly,
-		.rtl #dolly {
+		#dollyc,
+		.rtl #dollyc {
 			float: none;
 			padding-left: 0;
 			padding-right: 0;
